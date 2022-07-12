@@ -10,7 +10,7 @@ export default function Header() {
     const { totalPrice, count } = useSelector((state) => state.cart)
     return (
         <header className="header">
-            <Link to='/'>
+            <Link to='/react-pizzav2'>
                 <div className="logo">
                     <img src={require('../img/header/logo.png')} alt="" className="logo__img" />
                     <div className="logo__description">
