@@ -44,7 +44,7 @@ export default function Cart() {
                         <div className="cart__price">Сумма заказа: <span>{totalPrice} ₽</span></div>
                     </div>
                     <div className="cart__btns">
-                        <Link to="/react-pizzav2" className="cart__back">Вернуться назад</Link>
+                        <Link to="/react-pizzav2/" className="cart__back">Вернуться назад</Link>
                         <a className="cart__order" href="">Оформить заказ</a>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ export default function Cart() {
                     <path d="M133.288 93.5893L143.02 89.498" stroke="#DFDFDF" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
                     <path d="M171.398 140.878C170.137 137.202 156.763 97.7487 156.763 97.7487" stroke="#DFDFDF" strokeWidth="5" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
-                <Link to="/react-pizzav2" className="cart-empty__btn">Вернуться назад</Link>
+                <Link to="/react-pizzav2/" className="cart-empty__btn">Вернуться назад</Link>
             </div>
     )
 }
