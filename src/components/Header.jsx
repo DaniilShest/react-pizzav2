@@ -10,7 +10,7 @@ export default function Header() {
     const { totalPrice, count } = useSelector((state) => state.cart)
     return (
         <header className="header">
-            <Link to='/react-pizzav2'>
+            <Link to='/'>
                 <div className="logo">
                     <img src={require('../img/header/logo.png')} alt="" className="logo__img" />
                     <div className="logo__description">
@@ -19,8 +19,8 @@ export default function Header() {
                     </div>
                 </div>
             </Link>
-            {location.pathname === '/react-pizzav2/' ? <Search /> : ''}
-            {location.pathname === '/react-pizzav2/' ?
+            {location.pathname === '/' ? <Search /> : ''}
+            {location.pathname === '/' ?
                 <Link to='/cart' className="header-btn">
                     <div className="header-btn__left">{totalPrice} ₽</div>
                     <div className="header-btn__line"></div>
