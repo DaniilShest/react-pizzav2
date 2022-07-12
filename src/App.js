@@ -18,7 +18,7 @@ function App() {
           <Header />
           <div className="line"></div>
           <Routes>
-            <Route path="react-pizzav2/" element={<Home />} />
+            <Route path="react-pizzav2" element={<Home />} />
             <Route path="react-pizzav2/cart" element={<Cart />} />
             <Route path="react-pizzav2//*" element={<NotFound />} />
           </Routes>
