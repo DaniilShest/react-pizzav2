@@ -1,8 +1,8 @@
 {
   "name": "react-pizza",
   "version": "0.1.0",
+  "homepage": "https://daniilshest.github.io/react-pizzav2",
   "private": true,
-  "homepage": "https://daniilshest.github.io/react-pizzav2/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
     "@testing-library/jest-dom": "^5.16.4",
