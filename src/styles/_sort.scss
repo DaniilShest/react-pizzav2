@@ -1,0 +1,101 @@
+.sort {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        overflow: auto;
+
+        &::-webkit-scrollbar {
+            width: 0;
+        }
+
+        @media(max-width: 1100px) {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__item {
+        margin-right: 9px;
+        cursor: pointer;
+
+        padding: 15px 25px;
+        background: #F7F7F7;
+        border-radius: 30px;
+
+        color: #2C2C2C;
+        font-weight: 700;
+        font-size: 16px;
+        transition: all .2s ease;
+
+        &.active {
+            background: #2C2C2C;
+            color: #fff;
+        }
+
+        &:hover {
+            background: #2C2C2C;
+            color: #fff;
+        }
+    }
+
+    &__by {
+        display: flex;
+        align-items: center;
+        position: relative;
+
+        &-text {
+            margin: 0 11px;
+            font-weight: 700;
+            font-size: 14px;
+
+            span {
+                color: #EB5A1E;
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        }
+
+        &-popup {
+            position: absolute;
+            right: 0;
+            top: 20px;
+            padding: 13px 0;
+            background: #fff;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+            border-radius: 10px;
+            visibility: hidden;
+            opacity: 0;
+
+            transition: all .2s ease;
+
+            &.active {
+                visibility: visible;
+                opacity: 1;
+                top: 30px;
+            }
+        }
+
+        &-item {
+            font-weight: 400;
+            font-size: 14px;
+            padding: 10px;
+            cursor: pointer;
+            transition: all .2s ease;
+
+            &.active {
+                font-weight: 700;
+                color: #EB5A1E;
+                background: rgba(254, 95, 30, 0.05);
+            }
+
+            &:hover {
+                color: #EB5A1E;
+                background: rgba(254, 95, 30, 0.05);
+            }
+        }
+    }
+}

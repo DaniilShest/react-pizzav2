@@ -1,0 +1,50 @@
+.search {
+
+    &__body {
+        position: relative;
+
+        @media(max-width: 1100px) {
+            display: none;
+        }
+    }
+
+
+    &__img {
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        opacity: .3;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+    }
+
+    &__img-close {
+        cursor: pointer;
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        opacity: .3;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 10px;
+    }
+
+
+    &__input {
+        width: 300px;
+        padding: 13px 20px;
+        padding-left: 40px;
+        padding-right: 30px;
+        border-radius: 10px;
+        font-size: 16px;
+        outline: none;
+        border: 1px solid #bababa;
+        transition: all .2 ease;
+
+        &:focus {
+            border: 2px solid #b3b3b3;
+            box-shadow: none;
+        }
+    }
+}

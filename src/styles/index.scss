@@ -1,0 +1,95 @@
+@import "header";
+@import "logo";
+@import "search";
+@import "sort";
+@import "loaders";
+@import "cards";
+@import "cart";
+@import "cart-item";
+@import "notFound";
+@import "footer";
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2C2C2C;
+    background: #FFDF8C;
+    user-select: none;
+
+    @media(max-width: 1520px) {
+        font-size: 14px;
+        margin: 40px;
+    }
+
+    @media(max-width: 600px) {
+        font-size: 14px;
+        margin: 0;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2C2C2C;
+}
+
+.wrapper {
+    max-width: 1500px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 10px;
+
+    @media(max-width: 600px) {
+        margin: 0;
+        border-radius: 0;
+    }
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 30px;
+    margin: 0 auto;
+
+    @media(max-width: 700px) {
+        margin: 0;
+    }
+}
+
+
+.line {
+    height: 1px;
+    width: 100%;
+    margin-bottom: 40px;
+    background: #F7F7F7;
+
+    &-footer {
+        height: 1px;
+        width: 100%;
+        background: #F7F7F7;
+    }
+}
+
+.title {
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 35px;
+
+    @media(max-width: 400px) {
+        font-size: 24px;
+    }
+}

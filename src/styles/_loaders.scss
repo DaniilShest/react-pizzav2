@@ -1,0 +1,15 @@
+.loaders {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.loader {
+    min-width: 280px;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0 20px 50px 20px;
+    flex: 1 1 20%;
+}
