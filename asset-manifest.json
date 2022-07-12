@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-pizzav2/static/css/main.7712136d.css",
-    "main.js": "/react-pizzav2/static/js/main.d738162e.js",
+    "main.js": "/react-pizzav2/static/js/main.175d21e8.js",
     "static/media/peperoni.png": "/react-pizzav2/static/media/peperoni.86894cd3d6ffa4745a2f.png",
     "static/media/prawn.png": "/react-pizzav2/static/media/prawn.499eed4adc76e318b4d9.png",
     "static/media/chicken.png": "/react-pizzav2/static/media/chicken.269df91a49d5ac0f64e0.png",
@@ -13,10 +13,10 @@
     "static/media/pepperoni.jpeg": "/react-pizzav2/static/media/pepperoni.f88bbc83daf7699f8446.jpeg",
     "index.html": "/react-pizzav2/index.html",
     "main.7712136d.css.map": "/react-pizzav2/static/css/main.7712136d.css.map",
-    "main.d738162e.js.map": "/react-pizzav2/static/js/main.d738162e.js.map"
+    "main.175d21e8.js.map": "/react-pizzav2/static/js/main.175d21e8.js.map"
   },
   "entrypoints": [
     "static/css/main.7712136d.css",
-    "static/js/main.d738162e.js"
+    "static/js/main.175d21e8.js"
   ]
 }
