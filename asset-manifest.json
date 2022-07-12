@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-pizzav2/static/css/main.7712136d.css",
+    "main.js": "/react-pizzav2/static/js/main.5ac92eb2.js",
+    "static/media/peperoni.png": "/react-pizzav2/static/media/peperoni.86894cd3d6ffa4745a2f.png",
+    "static/media/prawn.png": "/react-pizzav2/static/media/prawn.499eed4adc76e318b4d9.png",
+    "static/media/chicken.png": "/react-pizzav2/static/media/chicken.269df91a49d5ac0f64e0.png",
+    "static/media/cheeseburger.png": "/react-pizzav2/static/media/cheeseburger.7081b0a5ffafe0371655.png",
+    "static/media/cheese.png": "/react-pizzav2/static/media/cheese.0bf73f131128342aec35.png",
+    "static/media/kolbaski.jpeg": "/react-pizzav2/static/media/kolbaski.638f99303197d0d4935f.jpeg",
+    "static/media/vegetable.jpeg": "/react-pizzav2/static/media/vegetable.8e0dd4aad28c83fa3b69.jpeg",
+    "static/media/diablo.jpeg": "/react-pizzav2/static/media/diablo.fedd6779dfff5deb2398.jpeg",
+    "static/media/pepperoni.jpeg": "/react-pizzav2/static/media/pepperoni.f88bbc83daf7699f8446.jpeg",
+    "index.html": "/react-pizzav2/index.html",
+    "main.7712136d.css.map": "/react-pizzav2/static/css/main.7712136d.css.map",
+    "main.5ac92eb2.js.map": "/react-pizzav2/static/js/main.5ac92eb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7712136d.css",
+    "static/js/main.5ac92eb2.js"
+  ]
+}
