@@ -19,8 +19,8 @@ export default function Header() {
                     </div>
                 </div>
             </Link>
-            {location.pathname === '/' ? <Search /> : ''}
-            {location.pathname === '/' ?
+            {location.pathname === '/react-pizzav2/' ? <Search /> : ''}
+            {location.pathname === '/react-pizzav2/' ?
                 <Link to='/cart' className="header-btn">
                     <div className="header-btn__left">{totalPrice} ₽</div>
                     <div className="header-btn__line"></div>
